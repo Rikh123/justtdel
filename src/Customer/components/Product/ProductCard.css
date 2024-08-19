@@ -1,0 +1,43 @@
+.product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease-out, transform 0.3s ease-out;
+    width: 15rem; /* Adjust the width as needed */
+    margin: 1rem; /* Adjust the margin as needed */
+  }
+  
+  .product-card .image-container {
+    height: 15rem; /* Adjusted height for image container */
+    width: 100%; /* Ensures full width of the parent container */
+  }
+  
+  .product-card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .product-card .text-part {
+    background-color: white;
+    padding: 1rem; /* Adjust padding as needed */
+    transition: transform 0.3s ease-out;
+    margin-top: -1rem; /* Pull the text part up */
+    width: 100%; /* Ensure it takes full width */
+  }
+  
+  .product-card:hover .text-part {
+    transform: translateY(-0.5rem); /* Slightly adjust the position on hover if needed */
+  }
+  
+  .product-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, 
+                rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+                rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+                rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+                rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  
