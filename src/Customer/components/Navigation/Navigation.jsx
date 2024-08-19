@@ -256,7 +256,7 @@ export default function NAvigation() {
   className="block h-auto w-5 flex-shrink-0"
 />
 
-                <span className="ml-3 block text-base font-medium text-gray-900">INR</span>
+                <span className="ml-3 block text-base font-medium text-gray-900">IND</span>
                 <span className="sr-only">, change currency</span>
               </a>
             </div>
