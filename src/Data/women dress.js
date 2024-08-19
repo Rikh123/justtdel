@@ -31,7 +31,7 @@ export const women_dress = [
     "imageUrl": "https://i.pinimg.com/originals/a4/5b/de/a45bde00e6d14e877c766dbb7c7c150a.jpg",
     "brand": "Adidas",
     "title": "Formal Dress",
-    "color": "Red",
+    "color": "Black",
     "discountedPrice": 664,
     "price": 2999,
     "discountPercent": 77,
