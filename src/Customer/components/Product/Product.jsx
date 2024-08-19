@@ -1,3 +1,4 @@
+
 'use client'
 
 import { useState } from 'react'
@@ -135,13 +136,13 @@ export default function Product() {
                             <input
                               defaultValue={option.value}
                               defaultChecked={option.checked}
-                              id={filter-mobile-${section.id}-${optionIdx}}
-                              name={${section.id}[]}
+                              id={`filter-mobile-${section.id}-${optionIdx}`}
+                              name={`${section.id}[]`}
                               type="checkbox"
                               className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
                             />
                             <label
-                              htmlFor={filter-mobile-${section.id}-${optionIdx}}
+                              htmlFor={`filter-mobile-${section.id}-${optionIdx}`}
                               className="ml-3 min-w-0 flex-1 text-gray-500"
                             >
                               {option.label}
@@ -245,12 +246,12 @@ export default function Product() {
                             <input
                               defaultValue={option.value}
                               defaultChecked={option.checked}
-                              id={filter-${section.id}-${optionIdx}}
-                              name={${section.id}[]}
+                              id={`filter-${section.id}-${optionIdx}`}
+                              name={`${section.id}[]`}
                               type="checkbox"
                               className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
                             />
-                            <label htmlFor={filter-${section.id}-${optionIdx}} className="ml-3 text-sm text-gray-600">
+                            <label htmlFor={`filter-${section.id}-${optionIdx}`} className="ml-3 text-sm text-gray-600">
                               {option.label}
                             </label>
                           </div>
@@ -275,4 +276,4 @@ export default function Product() {
       </div>
     </div>
   )
-} 
+}
