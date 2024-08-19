@@ -30,7 +30,7 @@ const navigation = {
         {
           name: 'Upcoming',
           href: '#',
-          imageSrc: process.env.PUBLIC_URL + '/R.jpg',
+          imageSrc:'https://img.vitkac.com/uploads/product_thumb/SUKIENKA%20IC5225%200-DRKGRN%20WONWHI/up/3.jpg',
           imageAlt: 'Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees.',
         },
       ],
