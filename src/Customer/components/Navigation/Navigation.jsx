@@ -28,7 +28,7 @@ const navigation = {
           imageAlt: 'Models sitting back to back, wearing Basic Tee in black and bone.',
         },
         {
-          name: 'Upcomming',
+          name: 'Upcoming',
           href: '#',
           imageSrc: 'https://img.vitkac.com/uploads/product_thumb/SUKIENKA%20IC5225%200-DRKGRN%20WONWHI/up/3.jpg',
           imageAlt: 'Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees.',
